@@ -1,0 +1,93 @@
+% !TEX encoding = UTF-8 Unicode
+% !TEX root = BioInspired.tex
+
+%%%  This is the main driver file.   It is mostly a list of file includes.   Read through and edit as needed.
+
+\documentclass[table]{book}
+
+\usepackage{listings}
+\usepackage{color}
+
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+\lstset{frame=tb,
+  language=Python,
+  aboveskip=3mm,
+  belowskip=3mm,
+  showstringspaces=false,
+  columns=flexible,
+  basicstyle={\small\ttfamily},
+  numbers=none,
+  numberstyle=\tiny\color{gray},
+  keywordstyle=\color{blue},
+  commentstyle=\color{dkgreen},
+  stringstyle=\color{mauve},
+  breaklines=true,
+  breakatwhitespace=true,
+  tabsize=3
+}
+
+\input{paperstyle.tex} % This sets the format.
+
+% Add your title page contents here 
+\title{{ \rule{\linewidth}{0.5mm}}\\[2mm] {\huge \bfseries  CSC 492/592 BioInspired Computing }\\[-1mm] {\rule{\linewidth}{0.5mm}} \\  \vfill
+{\LARGE \bfseries  Homework 2 }\vfill}
+\author{Ian Carlson \and  Derek Stotz  }
+\date{\today}
+
+
+\begin{document}
+
+\frontmatter
+
+% Comment out items you don't need
+
+\addcontentsline{toc}{chapter}{Title}
+\maketitle
+\tableofcontents
+\addcontentsline{toc}{chapter}{Contents}
+\listoffigures
+\addcontentsline{toc}{chapter}{List of Figures}
+\listoftables
+\addcontentsline{toc}{chapter}{List of Tables}
+
+\chapter{Document Preparation and Updates}
+\input{preparation.tex}
+ 
+ % Core content to follow ...
+ 
+\mainmatter
+
+%%  Add to the following chapters
+% you may also need additional chapters ...
+
+\input{EA.tex}
+\input{ANN.tex}
+\input{PSO.tex}
+\input{AIS.tex}
+
+%%%  Done with chapters
+% Bib stuff
+
+%\bibliographystyle{plain}
+%\bibliography{refs.bib}
+%\addcontentsline{toc}{chapter}{Bibliography}
+
+% In our style file, appendices are numbered with capital letters
+\appendix
+\chapter{ANN Test Results}\label{app:ANNTestResults}
+\input{ANNTestResults.tex}
+
+
+% chapters in backmatter don't have numbers, but they appear in the
+% table of contents, and are numbered BM-X where X is the page number
+% relative to where the backmatter begins.
+\backmatter
+
+%%  The author of LaTeX provided all of us with a sample document.  Here it is ...
+%\chapter{\LaTeX\ Example}
+%\input{latexexample.tex}
+
+\end{document}

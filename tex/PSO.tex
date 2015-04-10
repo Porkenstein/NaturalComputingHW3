@@ -1,0 +1,61 @@
+% !TEX root = BioInspired.tex
+
+\chapter{Swarms - Text Chapter 5}
+
+\section{Problem 5.1}
+
+Write a pseudocode for the simple ACO (SACO) algorithm considering pheremone evaporation, implement it computationally, and apply it to solve the TSP instance presented in section 3.10.4. discuss the results obtained. Remove the pheremone evaporation term(equation 5.3), apply the algorithm to the same problem, and discuss the results obtained.
+
+\subsection{Problem Information}
+
+The goal of the problem in 5.1 referenced by the text was to find the optimal path through every city on a given grid (the Travelling Salesman Problem discussed in 3.10.4).
+
+\subsection{Pseudocode}
+
+\begin{lstlisting}
+Initialize t, best, place all ants on city 0
+While t < max_iterations
+	For each ant
+		Calculate probability to move to each city:
+			pij = ([pheromones on edge ij^alpha] * [visibility of edge ij^beta])/
+				([sum of all pheromone values^alpha] * [sum of all visibilities^beta]) if j has not been used.
+				0 otherwise.
+		Normalize p-values
+		Use roulette wheel randomization to select a j
+	Evaluate ant solutions
+	If a better ant solution has been found
+		Update best
+	Update pheromone values
+	Increment t
+Print Best
+\end{lstlisting}
+
+\subsection{Algorithm Description}
+
+The algorithm was adapted directly from the book's pseudocode - the SACO (Simple Ant Colony Optimization) with pheromone evaporation (at first).  On the first iteration, a collection of ants generate random paths through the city graph, with their selections biased towards shorter paths.  The ants start at the first city and find paths through each other city.  On successive iterations, the ants also take into consideration pheromone values along candidate edges when selecting cities, which are updated whenever an ant traverses along an edge.  With pheromone evaporation used in the algorithm, a percentage of the pheromone is removed before being updated by the ant.  This helps prevent the ants from converging onto a local minimum.
+
+\subsection{Algorithm Performance}
+
+The SACO algorithm worked fairly well.  With the default parameters, the ants consistently found a path shorter than any that were generated through our attempts at random pathing (less than a length of 70), and found a path of less than 60 more than 50\% of the time.
+
+
+Removing the evaporation caused the algorithm to find best paths of between 58 and 60 about 90\% of the time.  While this is a nice result, and "bad" paths were much less common than with the evaporation on, the lack of deviane means that the occurance of "very good" paths, of length 56 or less, is also less common. 
+
+\section{Problem 5.8}
+
+Apply the PS algorithm described in 5.4.1 to the max problem of ex 3.3.3. Compare the relative performance of the PS algorithm with that obtained using a standard GA.
+
+\subsection{Problem Information}
+
+The goal of the problem in 5.8 referenced by the text was to find the global maximum of the equation $g(x) = 2^{-2(\frac{x-.1}{.9})^2}sin(5\pi x)^6$.
+
+\subsection{Algorithm Description}
+
+We implemented a simple particle swarm optimization algorithm.  A specified number of particles were initialized at random point between -1 and 1, and then began to move randomly.  Using a set of accelerations and velocity restrictions, random changes to the particle velocities were applied in the general direction of the "best" neighbors and the "best" overall particle (as determined by the maximizing function, with the weights towards either metric provided by alpha and beta constants).  After a determined number of iterations, the best particle was then printed.
+
+\subsection{Performance}
+
+The particle swarm performed well, finding an x with a fitness of .99999 or better every time.  However, as with all things in this assignment, the parameters we used traded off precision for performance.  So, while the results were more consistently better than any of the hill climbing techniques, it did take slightly longer than hill climbing.
+
+
+Conversely, while it did not find an x with a fitness resolved at 1.0 nearly every time, as the Genetic Algorithm did, it was faster than the GA and still provided very good, consistent results.  In my opinion, the particle swarm solution to this maximizing problem was a good intermediately sized one which provided good results relatively quickly.
