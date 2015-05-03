@@ -1,6 +1,6 @@
 #!/user/bin/python
 """
-H3C58P4 - Conway's Game of Life
+H3C8P4 - Conway's Game of Life
 
 Authors: Derek Stotz
 Date: 5/3/2015

@@ -1,6 +1,6 @@
 #!/user/bin/python
 """
-H3C58P3 - StarLogo Rabbits Simulation
+H3C8P3 - StarLogo Rabbits Simulation
 
 Authors: Derek Stotz
 Date: 5/3/2015
