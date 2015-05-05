@@ -9,8 +9,7 @@ Prof: Dr. Jeff McGough
 Usage:
 	python3 Landscapes.py <Width> <NRC> <Theta>
 	
-	Theta is the maximum height/depth change.  NRC is the number of divisions.
-
+	Theta is the maximum height/depth change.  NRC is the number of divisions. 10 4 10 are good input parameters.
 
 """
 

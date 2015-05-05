@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.11.14)  4 MAY 2015 16:25
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.11.14)  4 MAY 2015 22:00
 entering extended mode
-**C:/Users/7058670/Documents/GitHub/NaturalComputingHW3/tex/BioInspired.tex
-(C:/Users/7058670/Documents/GitHub/NaturalComputingHW3/tex/BioInspired.tex
+**BioInspired.tex
+(C:\Users\7058670\Documents\GitHub\NaturalComputingHW3\tex\BioInspired.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -993,7 +993,32 @@ Package: titlesec 2011/12/15 v2.10.0 Sectioning titles
 \titlewidthlast=\dimen231
 \titlewidthfirst=\dimen232
 ))
-(C:\Users\7058670\Documents\GitHub\NaturalComputingHW3\tex\BioInspired.aux)
+(C:\Users\7058670\Documents\GitHub\NaturalComputingHW3\tex\BioInspired.aux
+
+LaTeX Warning: Label `fig:gprun' multiply defined.
+
+
+LaTeX Warning: Label `fig:gprun' multiply defined.
+
+
+LaTeX Warning: Label `fig:gprun' multiply defined.
+
+
+LaTeX Warning: Label `fig:gprun' multiply defined.
+
+
+LaTeX Warning: Label `fig:gprun' multiply defined.
+
+
+LaTeX Warning: Label `fig:gprun' multiply defined.
+
+
+LaTeX Warning: Label `fig:gprun' multiply defined.
+
+
+LaTeX Warning: Label `fig:gprun' multiply defined.
+
+)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
 LaTeX Font Info:    ... okay on input line 41.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 41.
@@ -1008,8 +1033,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 41.
 LaTeX Font Info:    ... okay on input line 41.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 41.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 41.
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 41.
@@ -1107,22 +1131,16 @@ ABD: EveryShipout initializing macros [1
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] [2
 
 ]
-(C:\Users\7058670\Documents\GitHub\NaturalComputingHW3\tex\BioInspired.toc)
+(C:\Users\7058670\Documents\GitHub\NaturalComputingHW3\tex\BioInspired.toc
+[3])
 \tf@toc=\write6
-
-[3] [4
-
-]
+ [4]
 (C:\Users\7058670\Documents\GitHub\NaturalComputingHW3\tex\BioInspired.lof)
 \tf@lof=\write7
 
-[5] [6
+[5
 
-]
-(C:\Users\7058670\Documents\GitHub\NaturalComputingHW3\tex\BioInspired.lot)
-\tf@lot=\write8
-
-[7] [8
+] [6
 
 ]
 (C:\Users\7058670\Documents\GitHub\NaturalComputingHW3\tex\preparation.tex
@@ -1130,58 +1148,161 @@ Overfull \hbox (7.03629pt too wide) in paragraph at lines 16--35
 [] 
  []
 
-) [9] [10
+) [7] [8
 
 ]
 (C:\Users\7058670\Documents\GitHub\NaturalComputingHW3\tex\Chapter7.tex
 Chapter 1.
-) (C:\Users\7058670\Documents\GitHub\NaturalComputingHW3\tex\HeatFlow.tex
-[1
+<fractal1.png, id=284, 1686.3pt x 1053.9375pt>
+File: fractal1.png Graphic file (type png)
+ <use fractal1.png>
+Package pdftex.def Info: fractal1.png used on input line 29.
+(pdftex.def)             Requested size: 352.31624pt x 220.1916pt.
 
-] [2
+<fractal2.png, id=286, 1686.3pt x 1053.9375pt>
+File: fractal2.png Graphic file (type png)
+ <use fractal2.png>
+Package pdftex.def Info: fractal2.png used on input line 36.
+(pdftex.def)             Requested size: 352.31624pt x 220.1916pt.
 
-]
+<fractal3.png, id=287, 493.845pt x 480.29437pt>
+File: fractal3.png Graphic file (type png)
+ <use fractal3.png>
+Package pdftex.def Info: fractal3.png used on input line 43.
+(pdftex.def)             Requested size: 352.31624pt x 342.64568pt.
+
+<fractal4.png, id=288, 493.845pt x 480.29437pt>
+File: fractal4.png Graphic file (type png)
+ <use fractal4.png>
+Package pdftex.def Info: fractal4.png used on input line 50.
+(pdftex.def)             Requested size: 352.31624pt x 342.64568pt.
+
+<fractal6.png, id=289, 1686.3pt x 1053.9375pt>
+File: fractal6.png Graphic file (type png)
+ <use fractal6.png>
+Package pdftex.def Info: fractal6.png used on input line 57.
+(pdftex.def)             Requested size: 352.31624pt x 220.1916pt.
+ [1
+
+] [2pdfTeX warning (ext4): destination with the same identifier (name{figure.1.
+1}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.64 \section
+             {Problem 7.15}pdfTeX warning (ext4): destination with the same ide
+ntifier (name{figure.1.2}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.64 \section
+             {Problem 7.15} <C:/Users/7058670/Documents/GitHub/NaturalComputing
+HW3/tex/fractal1.png> <C:/Users/7058670/Documents/GitHub/NaturalComputingHW3/te
+x/fractal2.png>] [3pdfTeX warning (ext4): destination with the same identifier 
+(name{figure.1.3}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.64 \section
+             {Problem 7.15} <C:/Users/7058670/Documents/GitHub/NaturalComputing
+HW3/tex/fractal3.png>] [4pdfTeX warning (ext4): destination with the same ident
+ifier (name{figure.1.4}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.64 \section
+             {Problem 7.15}pdfTeX warning (ext4): destination with the same ide
+ntifier (name{figure.1.5}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.64 \section
+             {Problem 7.15} <C:/Users/7058670/Documents/GitHub/NaturalComputing
+HW3/tex/fractal4.png> <C:/Users/7058670/Documents/GitHub/NaturalComputingHW3/te
+x/fractal6.png>] [5
+
+])
+(C:\Users\7058670\Documents\GitHub\NaturalComputingHW3\tex\HeatFlow.tex
+[6]
 Chapter 2.
 ) (C:\Users\7058670\Documents\GitHub\NaturalComputingHW3\tex\GrayScott.tex
-[3] [4
+[7
+
+] [8
 
 ]
 Chapter 3.
-) (C:\Users\7058670\Documents\GitHub\NaturalComputingHW3\tex\Chapter8.tex
-[5] [6
+<alpha.png, id=330, 1686.3pt x 1053.9375pt>
+File: alpha.png Graphic file (type png)
+ <use alpha.png>
+Package pdftex.def Info: alpha.png used on input line 40.
+(pdftex.def)             Requested size: 352.31624pt x 220.1916pt.
+
+<lambda.png, id=331, 1686.3pt x 1053.9375pt>
+File: lambda.png Graphic file (type png)
+ <use lambda.png>
+Package pdftex.def Info: lambda.png used on input line 47.
+(pdftex.def)             Requested size: 352.31624pt x 220.1916pt.
+
+<Mu.png, id=332, 1686.3pt x 1053.9375pt>
+File: Mu.png Graphic file (type png)
+ <use Mu.png>
+Package pdftex.def Info: Mu.png used on input line 54.
+(pdftex.def)             Requested size: 352.31624pt x 220.1916pt.
+
+<Theta.png, id=333, 1686.3pt x 1053.9375pt>
+File: Theta.png Graphic file (type png)
+ <use Theta.png>
+Package pdftex.def Info: Theta.png used on input line 61.
+(pdftex.def)             Requested size: 352.31624pt x 220.1916pt.
+)
+(C:\Users\7058670\Documents\GitHub\NaturalComputingHW3\tex\Chapter8.tex
+[9] [10pdfTeX warning (ext4): destination with the same identifier (name{figure
+.3.1}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.3 \chapter
+            {Cellular Automata - Text Chapter 8}pdfTeX warning (ext4): destinat
+ion with the same identifier (name{figure.3.2}) has been already used, duplicat
+e ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.3 \chapter
+            {Cellular Automata - Text Chapter 8} <C:/Users/7058670/Documents/Gi
+tHub/NaturalComputingHW3/tex/alpha.png> <C:/Users/7058670/Documents/GitHub/Natu
+ralComputingHW3/tex/lambda.png>] [11pdfTeX warning (ext4): destination with the
+ same identifier (name{figure.3.3}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.3 \chapter
+            {Cellular Automata - Text Chapter 8}pdfTeX warning (ext4): destinat
+ion with the same identifier (name{figure.3.4}) has been already used, duplicat
+e ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.3 \chapter
+            {Cellular Automata - Text Chapter 8} <C:/Users/7058670/Documents/Gi
+tHub/NaturalComputingHW3/tex/Mu.png> <C:/Users/7058670/Documents/GitHub/Natural
+ComputingHW3/tex/Theta.png>] [12
 
 ]
 Chapter 4.
-) (C:\Users\7058670\Documents\GitHub\NaturalComputingHW3\tex\Chapter9.tex
-[7] [8
-
-]
+[13]) (C:\Users\7058670\Documents\GitHub\NaturalComputingHW3\tex\Chapter9.tex
+[14]
 Chapter 5.
-) [9] [10
+[15
 
-]
-Appendix A.
-(C:\Users\7058670\Documents\GitHub\NaturalComputingHW3\tex\Code.tex
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 6.
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
-File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <10> not available
-(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 17.
- [11]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [12])
-[13] [14
-
-]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 94.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 94.
+]) [16]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 87.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 87.
 
 (C:\Users\7058670\Documents\GitHub\NaturalComputingHW3\tex\BioInspired.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 94.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 94.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 87.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 87.
 
 
 Package rerunfilecheck Warning: File `BioInspired.out' has changed.
@@ -1189,38 +1310,38 @@ Package rerunfilecheck Warning: File `BioInspired.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `BioInspired.out':
-(rerunfilecheck)             Before: 845FEA1FAD9AC5F398FAAB68AA81D88F;594
-(rerunfilecheck)             After:  7BAAF3B6F6994629E4BCA5C121B91A16;1996.
+(rerunfilecheck)             Before: E42E7FA2429A74C241AD99AF53304569;2772
+(rerunfilecheck)             After:  F1132599451CE39009219E7BB24BC5B0;2730.
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 94.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 87.
  ) 
 Here is how much of TeX's memory you used:
- 22942 strings out of 493921
- 406120 string characters out of 3144869
- 593572 words of memory out of 3000000
- 25599 multiletter control sequences out of 15000+200000
- 21185 words of font info for 63 fonts, out of 3000000 for 9000
+ 22764 strings out of 493921
+ 403684 string characters out of 3144869
+ 523672 words of memory out of 3000000
+ 25482 multiletter control sequences out of 15000+200000
+ 20537 words of font info for 61 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 64i,12n,56p,3348b,1854s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\7058670\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi60
-0\tcrm1000.pk> <C:\Users\7058670\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknap
-pen\ec\dpi600\ectt1000.pk> <C:\Users\7058670\AppData\Local\MiKTeX\2.9\fonts\pk\
-ljfour\jknappen\ec\dpi600\ecbx1200.pk> <C:\Users\7058670\AppData\Local\MiKTeX\2
-.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk> <C:\Users\7058670\AppData\Lo
-cal\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbi1000.pk> <C:\Users\705867
-0\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1000.pk> <C:\
-Users\7058670\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1
-000.pk> <C:\Users\7058670\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\
-dpi600\ecbx1000.pk> <C:\Users\7058670\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\
-jknappen\ec\dpi600\ecrm1200.pk> <C:\Users\7058670\AppData\Local\MiKTeX\2.9\font
-s\pk\ljfour\jknappen\ec\dpi600\ecbx1728.pk> <C:\Users\7058670\AppData\Local\MiK
-TeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2074.pk><C:/Program Files (x86)/
-MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on BioInspired.pdf (24 pages, 179075 bytes).
+ 64i,11n,56p,3290b,419s stack positions out of 5000i,500n,10000p,200000b,50000s
+pdfTeX warning (dest): name{appendix.A} has been referenced but does not exis
+t, replaced by a fixed one
+
+ <C:\Users\7058670\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\
+ecbx1200.pk> <C:\Users\7058670\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappe
+n\ec\dpi600\ecbx1440.pk> <C:\Users\7058670\AppData\Local\MiKTeX\2.9\fonts\pk\lj
+four\jknappen\ec\dpi600\ecbi1000.pk> <C:\Users\7058670\AppData\Local\MiKTeX\2.9
+\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1000.pk> <C:\Users\7058670\AppData\Loca
+l\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1000.pk> <C:\Users\7058670\
+AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1000.pk> <C:\Us
+ers\7058670\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm120
+0.pk> <C:\Users\7058670\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dp
+i600\ecbx1728.pk> <C:\Users\7058670\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jk
+nappen\ec\dpi600\ecbx2074.pk>
+Output written on BioInspired.pdf (24 pages, 1539149 bytes).
 PDF statistics:
- 684 PDF objects out of 1000 (max. 8388607)
- 149 named destinations out of 1000 (max. 500000)
- 93 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 752 PDF objects out of 1000 (max. 8388607)
+ 92 named destinations out of 1000 (max. 500000)
+ 410 words of extra memory for PDF output out of 10000 (max. 10000000)
 
