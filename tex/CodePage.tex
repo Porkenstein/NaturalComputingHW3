@@ -1,0 +1,98 @@
+% !TEX root = BioInspired.tex
+
+\begin{lstlisting}
+#!/user/bin/python
+
+"""
+H2C3P1 - Deterministic Hill Climbing
+
+Authors: Derek Stotz, Ian Carlson
+Date: 3/16/2015
+Course: Natural Computing
+Prof: Dr. Jeff McGough
+Usage:
+	python3 deterministic_hillclimb.py <max iterations> <resolution> <start x>
+"""
+
+from math import *
+from random import *
+from sys import *
+
+DISTRIBUTION = "UNIFORM"
+DEBUG = False
+
+# prints a single point in the search space and its fitness
+# x - the point in the search space
+def hc_print(i, x, f):
+	print("i: " + str(i) + "\tx:" + str(x) + "\tf(x):" + str(f))
+
+# Looks left and right from x by amount res
+# x - the current location
+# f - the current fitness
+# res - step size
+# returns the new location, new fitness, and true
+# or the old location, fitness and false
+def steepest_ascent(x,f,res):
+	lx = x-res
+	rx = x+res
+	lf = fit(lx)
+	rf = fit(rx)
+	newx = x
+	newf = f
+	improvement = False
+	if lf > newf:
+		newx = lx
+		newf = lf
+		improvement = True
+	if rf > newf:
+		newx = rx
+		newf = rf
+		improvement = True
+	return [newx,newf,improvement]
+	
+
+# returns the fitness value of x, a point in the search space
+# x - the point in the search space
+def fit(x):
+	return (2 ** ( -2 * ( (x-.1)/.9 ) ** 2 ) * (sin(5*pi*x)) ** 6)
+	
+# the main function, setting up environment and evaluating results
+# max_i - the maximum iteration
+# res - he step size for searching
+# start_x - the starting point
+def hillclimb(max_i, res, start_x):
+	x = start_x
+	f = fit(x)
+
+	for i in range(0, max_i):
+		if DEBUG:
+			hc_print(i, x, f)
+		[x,f,improvement] = steepest_ascent(x,f,res)
+		if not improvement:
+			return [x,f,i]
+	return [x, f, i]
+			
+
+if __name__ == "__main__":
+	
+	seed()
+	max_i = 10000
+	res = 0.00001
+	#Initialize a random start [-1,1)
+	start_x = (random()-0.5)*2;
+
+	if(len(argv)>3):
+		start_x = float(argv[3])
+	if(len(argv)>2):
+		res = float(argv[2])
+	if(len(argv)>1):
+		max_i = int(argv[1])
+	
+	results = hillclimb(max_i, res, start_x)
+	best_x = results[0]
+	best_f = results[1]
+	iterations = results[2] + 1
+
+	print("The best x found after " + str(iterations) + " iterations was " + str(best_x) + " with a value of " + str(best_f) + ".")
+
+\end{lstlisting}
