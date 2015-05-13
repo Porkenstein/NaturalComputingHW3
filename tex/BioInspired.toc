@@ -1,5 +1,5 @@
 \contentsline {chapter}{Title}{i}{Doc-Start}
-\contentsline {chapter}{Contents}{iv}{chapter*.1}
+\contentsline {chapter}{Contents}{iii}{chapter*.1}
 \contentsline {chapter}{List of Figures}{v}{chapter*.2}
 \contentsline {chapter}{Document Preparation and Updates}{vii}{chapter*.3}
 \contentsline {chapter}{\numberline {1}Fractals - Text Chapter 7}{1}{chapter.1}
@@ -8,18 +8,18 @@
 \contentsline {subsection}{\numberline {1.1.2}Implementation}{1}{subsection.1.1.2}
 \contentsline {subsection}{\numberline {1.1.3}Issues}{1}{subsection.1.1.3}
 \contentsline {subsection}{\numberline {1.1.4}Analysis}{1}{subsection.1.1.4}
-\contentsline {section}{\numberline {1.2}Problem 7.15}{5}{section.1.2}
-\contentsline {subsection}{\numberline {1.2.1}Problem Information}{5}{subsection.1.2.1}
-\contentsline {subsection}{\numberline {1.2.2}Algorithm Description}{5}{subsection.1.2.2}
-\contentsline {subsection}{\numberline {1.2.3}Results}{5}{subsection.1.2.3}
+\contentsline {section}{\numberline {1.2}Problem 7.15}{4}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}Problem Information}{4}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {1.2.2}Algorithm Description}{4}{subsection.1.2.2}
+\contentsline {subsection}{\numberline {1.2.3}Results}{4}{subsection.1.2.3}
 \contentsline {section}{\numberline {1.3}Problem 7.21}{5}{section.1.3}
 \contentsline {subsection}{\numberline {1.3.1}Problem Information}{5}{subsection.1.3.1}
-\contentsline {subsection}{\numberline {1.3.2}Algorithm Description}{6}{subsection.1.3.2}
-\contentsline {subsection}{\numberline {1.3.3}Results and Analysis}{6}{subsection.1.3.3}
+\contentsline {subsection}{\numberline {1.3.2}Algorithm Description}{5}{subsection.1.3.2}
+\contentsline {subsection}{\numberline {1.3.3}Results and Analysis}{5}{subsection.1.3.3}
 \contentsline {chapter}{\numberline {2}Slides - Heat Flow}{7}{chapter.2}
 \contentsline {section}{\numberline {2.1}Problem}{7}{section.2.1}
 \contentsline {subsection}{\numberline {2.1.1}Implementation}{7}{subsection.2.1.1}
-\contentsline {subsection}{\numberline {2.1.2}}{7}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.1.2}Issues}{7}{subsection.2.1.2}
 \contentsline {subsection}{\numberline {2.1.3}Analysis}{7}{subsection.2.1.3}
 \contentsline {chapter}{\numberline {3}Slides - Gray Scott}{9}{chapter.3}
 \contentsline {section}{\numberline {3.1}Problem}{9}{section.3.1}
@@ -31,13 +31,13 @@
 \contentsline {subsection}{\numberline {4.1.1}Problem Information}{13}{subsection.4.1.1}
 \contentsline {subsection}{\numberline {4.1.2}Algorithm Description}{13}{subsection.4.1.2}
 \contentsline {subsection}{\numberline {4.1.3}Results}{13}{subsection.4.1.3}
-\contentsline {section}{\numberline {4.2}Problem 8.4}{14}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Problem Information}{14}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}Algorithm Description}{14}{subsection.4.2.2}
+\contentsline {section}{\numberline {4.2}Problem 8.4}{13}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Problem Information}{13}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Algorithm Description}{13}{subsection.4.2.2}
 \contentsline {subsection}{\numberline {4.2.3}Results}{14}{subsection.4.2.3}
 \contentsline {chapter}{\numberline {5}Immunocomputing - Text Chapter 6}{15}{chapter.5}
 \contentsline {section}{\numberline {5.1}Problem 9.1}{15}{section.5.1}
 \contentsline {section}{\numberline {5.2}Problem 9.2}{15}{section.5.2}
 \contentsline {subsection}{\numberline {5.2.1}NP-Complete}{15}{subsection.5.2.1}
 \contentsline {subsection}{\numberline {5.2.2}NP-Hard}{15}{subsection.5.2.2}
-\contentsline {section}{\numberline {5.3}Problem 9.3}{16}{section.5.3}
+\contentsline {section}{\numberline {5.3}Problem 9.3}{15}{section.5.3}
